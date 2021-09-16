@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -24,7 +24,7 @@
 }
 
 .logo_place_header {
-  position:absolute;
+  position: absolute;
   top: 30px;
   left: 64px;
   width: 183px;
@@ -35,7 +35,7 @@
   margin: 0;
   padding: 0;
   font-size: 102px;
-  line-height:96px;
+  line-height: 96px;
   font-weight: bold;
   width: 730px;
   margin-left: 64px;
@@ -91,8 +91,8 @@
 }
 
 .two-columns {
-  width:80%;
-  display:flex;
+  width: 80%;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
@@ -101,8 +101,8 @@
 .two-columns__brief {
   color: #2f80ed;
   flex-basis: 175px;
-  line-height:1.2;
-  font-size:18px;
+  line-height: 1.2;
+  font-size: 18px;
   margin: 0;
   font-weight: normal;
 }
@@ -110,7 +110,7 @@
 .two-columns__main-text {
   flex-basis: 80%;
   min-width: 784px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -227,7 +227,7 @@
   margin-top: 90px;
 }
 
-.section-table_theme_dark {
+.table_theme_dark {
   margin-bottom: 90px;
 }
 
@@ -249,12 +249,13 @@
   margin-top: 80px;
 }
 
+/* я не мог понять какие отступы вы имели ввиду (думал проблема с margin), спустя час раздумий до меня наконец-то дошло=)) */
 .footer {
-min-height: 350px;
-background-color: #1f1f1f;
-color: white;
-padding: 60px 0 40px;
-box-sizing: border-box;
+  min-height: 350px;
+  background-color: #1f1f1f;
+  color: white;
+  padding: 60px 0 40px;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -265,7 +266,7 @@ box-sizing: border-box;
   min-height: 250px;
 }
 
-.footer_column_content-copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;

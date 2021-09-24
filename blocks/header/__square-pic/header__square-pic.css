@@ -6,6 +6,5 @@
   width: 568px;
   right: 0;
   top: 64px;
-  /* transform: rotate(-15deg); */
-  animation: rotation 20s linear infinite;
+  transform: rotate(-15deg);
 }

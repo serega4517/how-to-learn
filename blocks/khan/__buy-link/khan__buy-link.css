@@ -5,8 +5,8 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
-  max-height: 42px;        /*  задал ссылке максимальную высоту т.к. она была растянута на всю высоту блока. все пространство ниже текста ссылки было "активным"  */
-  transition: opacity .3s linear;
+  align-self: flex-start;
+  transition: opacity 0.3s linear;
 }
 
 .khan__buy-link:hover {

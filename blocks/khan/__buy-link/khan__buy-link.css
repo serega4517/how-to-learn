@@ -1,0 +1,14 @@
+.khan__buy-link {
+  margin-left: 48px;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+  max-height: 42px;        /*  задал ссылке максимальную высоту т.к. она была растянута на всю высоту блока. все пространство ниже текста ссылки было "активным"  */
+  transition: opacity .3s linear;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.7;
+}

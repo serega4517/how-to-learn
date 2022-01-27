@@ -1,6 +1,6 @@
 # Научиться учиться. Landing page.
 ---
-## Сайт написан при помощи
+## [Сайт](https://serega4517.github.io/how-to-learn/) написан при помощи
 * HTML
 * CSS
 
